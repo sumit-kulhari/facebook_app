@@ -61,7 +61,7 @@ const Main = () => {
 					</form>
 				</div>
 				<div className={styles.right}>
-					<h1>Already Signed In?</h1>
+					<h2>Already Signed In?</h2>
 					<Link to="/">
 						<button type="button" className={styles.white_btn}>
 							Delete Integration
