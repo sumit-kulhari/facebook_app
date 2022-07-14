@@ -55,19 +55,19 @@ const Main = () => {
 						<h1>Facebook Page Integration</h1>
 						
 						
-						<button type="submit" className={styles.green_btn}>
+						<button type="button" className={styles.green_btn}>
 							Conenct Page
 						</button>
 					</form>
 				</div>
 				<div className={styles.right}>
 					<h1>Already Signed In?</h1>
-					<Link to="/signup">
+					<Link to="/">
 						<button type="button" className={styles.white_btn}>
 							Delete Integration
 						</button>
 					</Link><br></br>
-					<Link to="/signup">
+					<Link to="/">
 						<button type="button" className={styles.white_btn}>
 							Reply To Messages
 						</button>
